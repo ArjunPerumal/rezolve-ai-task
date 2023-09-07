@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="overall-content container-fluid">
+        <div class="row notification-head px-3">
+            <div class="col-6 notification-left">
+                <img src="../assets/images/back_arrow.svg" alt="back-arrow" class="pe-2">Notification
+            </div>
+            <div class="col-6 notification-right pt-1 ">
+                Mark all as read
+            </div>
+        </div>
+        <!-- ==================================================== -->
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light mt-4">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse  navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav page">
+                            <li class="nav-item active all-activity">
+                                <a class="nav-link menu " href="#index.html" data-menu="all">All Activities</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link menu" href="#tickets.html" data-menu="ticket">
+                                    Tickets
+                                    <span class="badge rounded-pill ms-2">12</span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link menu" href="#">SLA
+                                    <span class="badge rounded-pill ms-2">0</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link menu" href="#" data-menu="tasks">Tasks
+                                    <span class="badge rounded-pill ms-2">0</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link menu" href="#" data-menu="missed">Missed Chat
+                                    <span class="badge rounded-pill ms-2">0</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- =================================================== -->
+        <div class="container-fluid mt-4">
+            <div class="accordion mt-3">
+                <div class="accordion-item stright-line">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button day-report " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#todayPanel" aria-expanded="true" aria-controls="todayPanel">
+                            Today
+                            <span class="circle"></span>
+                        </button>
+                    </h2>
+                    <div class="vertical-line"></div>
+                    <div id="todayPanel" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="container-fluid">
+
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                    <div class="accordion-item ">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                                aria-controls="panelsStayOpen-collapseOne">
+                                                <span class="name-info">
+                                                    <span class="name-letter">HA</span>
+                                                </span>
+                                                <span class="message-info">
+                                                    <div>
+                                                        <span class="messanger-name"> Honey</span>
+                                                        <span class="ticket-info"> updated the incident ticket
+                                                            #ASC1302</span>
+                                                    </div>
+                                                    <div class="message-time">
+                                                        30 min ago
+                                                    </div>
+                                                </span>
+                                            </button>
+                                        </h2>
+                                        <!-- card1 -->
+                                        <div class="accordion-body accordion-body-cards">
+                                            <div class="card card1 card-detail">
+                                                <div class="card-body " type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                                    aria-controls="panelsStayOpen-collapseOne">
+                                                    <h5 class="card-title">Unable to send emails</h5>
+                                                    <h6 class="card-subtitle mb-2 pt-1">
+                                                        <span class="messanger-name-detail">Honey Arora</span>
+                                                        <span class="ticket-info">update the ticket #ASC 1304 with a
+                                                            public note</span>
+                                                    </h6>
+                                                    <p class="card-text">Microsoft has released new security patch for
+                                                        the Email Server. We experience some intermittent issues as the
+                                                        update was being done. Can you please check now if it is working
+                                                        for you?
+                                                    </p>
+                                                    <div class="">
+                                                        <span class="attachments">
+                                                            Attachments:
+                                                        </span>
+                                                        <span class="px-2">
+                                                            <button class="btn attach-btn">
+                                                                <span>
+                                                                    <img src="../assets/images/word_img.svg" alt="">
+                                                                </span>
+                                                                <span> Screenshot.doc
+                                                                </span>
+                                                            </button>
+                                                        </span>
+                                                        <span class="px-2">
+                                                            <button class="btn attach-btn">
+                                                                <span>
+                                                                    <img src="../assets/images/pdf_img.svg" alt="">
+                                                                </span>
+                                                                <span> Screenshot.pdf
+                                                                </span>
+                                                            </button>
+                                                        </span>
+                                                        <span class="px-2">
+                                                            <button class="btn attach-btn">
+                                                                <span>
+                                                                    <img src="../assets/images/excel_img.svg" alt="">
+                                                                </span>
+                                                                <span> Screenshot.doc
+                                                                </span>
+                                                            </button>
+                                                        </span>
+                                                        <span class="px-2">
+                                                            <button class="btn attach-number-btn">
+                                                                <span> +3
+                                                                </span>
+                                                            </button>
+                                                        </span>
+                                                    </div>
+
+
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse "
+                                            aria-labelledby="panelsStayOpen-headingOne">
+                                            <div class="accordion-body accordion-body-cards card2-body">
+
+                                                <!-- card2 -->
+                                                <div class="card card2 card-detail mt-3">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title card-title-head">Unable to send emails
+                                                            <span class="close-icon">
+                                                                <img src="../assets/images/x.svg" alt="">
+                                                            </span>
+                                                        </h5>
+                                                        <h6 class="card-subtitle mb-2 pt-1">
+                                                            <span class="messanger-name-detail">Honey Arora</span>
+                                                            <span class="ticket-info">update the ticket #ASC 1304
+                                                                with a
+                                                                public note</span>
+                                                        </h6>
+                                                        <p class="card-text">Microsoft has released new security patch
+                                                            for the Email Server. We experience some intermittent issues
+                                                            as the update was being done. Can you please check now if it
+                                                            is working for you?
+                                                        </p>
+                                                        <div class="">
+                                                            <span class="attachments">
+                                                                Attachments:
+                                                            </span>
+                                                            <span class="px-2">
+                                                                <button class="btn attach-btn">
+
+                                                                    <span> Screenshot.doc
+                                                                    </span>
+                                                                </button>
+                                                            </span>
+                                                            <span class="px-2">
+                                                                <button class="btn attach-btn">
+
+                                                                    <span> Screenshot.pdf
+                                                                    </span>
+                                                                </button>
+                                                            </span>
+                                                            <span class="px-2">
+                                                                <button class="btn attach-btn">
+
+                                                                    <span> Screenshot.doc
+                                                                    </span>
+                                                                </button>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- card3 -->
+                                                <div class="card card3 card-detail mt-3">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title card-title-head">Unable to send emails
+                                                            <span class="close-icon">
+                                                                <img src="../assets/images/x.svg" alt="">
+                                                            </span>
+                                                        </h5>
+                                                        <h6 class="card-subtitle mb-2 pt-1">
+                                                            <span class="messanger-name-detail">Honey Arora</span>
+                                                            <span class="ticket-info">update the ticket #ASC 1304
+                                                                with a
+                                                                public note</span>
+                                                        </h6>
+                                                        <p class="card-text">Microsoft has released new security patch
+                                                            for the Email Server. We experience some intermittent issues
+                                                            as the update was being done. Can you please check now if it
+                                                            is working for you?
+                                                        </p>
+                                                        <div class="">
+                                                            <span class="attachments">
+                                                                Attachments:
+                                                            </span>
+                                                            <span class="px-2">
+                                                                <button class="btn attach-btn">
+
+                                                                    <span> Screenshot.doc
+                                                                    </span>
+                                                                </button>
+                                                            </span>
+                                                            <span class="px-2">
+                                                                <button class="btn attach-btn">
+
+                                                                    <span> Screenshot.pdf
+                                                                    </span>
+                                                                </button>
+                                                            </span>
+                                                            <span class="px-2">
+                                                                <button class="btn attach-btn">
+
+                                                                    <span> Screenshot.doc
+                                                                    </span>
+                                                                </button>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- </div> -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item mt-4" id="ticketContent">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true"
+                                                aria-controls="panelsStayOpen-collapseTwo">
+                                                <span class="name-info name-jh">
+                                                    <span class="name-letter ">JH</span>
+                                                </span>
+                                                <span class="message-info">
+                                                    <div>
+                                                        <span class="messanger-name"> Julien Herbst</span>
+                                                        <span class="ticket-info"> tries connecting over Live
+                                                            chat</span>
+                                                    </div>
+                                                    <div class="message-time">
+                                                        30 min ago
+                                                    </div>
+                                                </span>
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show"
+                                            aria-labelledby="panelsStayOpen-headingTwo">
+                                            <div class="accordion-body">
+
+                                                <div class="card ">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Missed a Live chat</h5>
+                                                        <h6 class="card-subtitle mb-2 pt-1">
+                                                            <span class="messanger-name-detail">Julien</span>
+                                                            <span class="ticket-info">tried reaching the help-desk for
+                                                                alive chat</span>
+                                                        </h6>
+                                                        <div class="py-3 ">
+                                                            <span>
+                                                                <button class="btn in-chat-btn">Initiate
+                                                                    Chat</button>
+                                                            </span>
+                                                            <span class="ps-3">
+                                                                <button class="btn mark-address-btn">Mark
+                                                                    Addressed</button>
+                                                            </span>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item ">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true"
+                                                aria-controls="panelsStayOpen-collapseThree">
+                                                <span class="name-info name-ur">
+                                                    <span class="name-letter">UR</span>
+                                                </span>
+                                                <span class="message-info">
+                                                    <div>
+                                                        <span class="messanger-name"> Udaya Reddy </span>
+                                                        <span class="ticket-info">resolved the incident ticket
+                                                            #ASC1314</span>
+                                                    </div>
+                                                    <div class="message-time">
+                                                        30 min ago
+                                                    </div>
+                                                </span>
+                                            </button>
+                                        </h2>
+                                        <!-- card1 -->
+                                        <div class="accordion-body accordion-body-cards">
+                                            <div class="card card1 card-detail">
+                                                <div class="card-body">
+                                                    <h5 class="card-title"></h5>
+                                                    <h6 class="card-subtitle mb-2 pt-1">
+                                                        <span class="messanger-name-detail">A 88, 2nd floor</span>
+                                                        <span class="ticket-info"> printer not working</span>
+                                                    </h6>
+                                                    <p class="card-text">The device required a firmware upgrade. This
+                                                        has been fixed now. Please reach back in you face nay issue.
+                                                    </p>
+                                                    <p class="card-text">Regards</p>
+                                                    <p class="card-text">UB</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse "
+                                            aria-labelledby="panelsStayOpen-headingThree">
+                                            <div class="accordion-body accordion-body-cards card2-body">
+
+                                                <!-- card2 -->
+                                                <div class="card card2 card-detail mt-3">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">
+                                                            <span class="close-icons">
+                                                                <img src="../assets/images/x.svg" alt="">
+                                                            </span>
+                                                        </h5>
+                                                        <h6 class="card-subtitle mb-2 pt-1">
+                                                            <span class="messanger-name-detail">A 88, 2nd floor</span>
+                                                            <span class="ticket-info"> printer not working</span>
+                                                        </h6>
+                                                        <p class="card-text">The device required a firmware upgrade.
+                                                            This has been fixed now. Please reach back in you face nay
+                                                            issue.
+                                                        </p>
+                                                        <p class="card-text">Regards</p>
+                                                        <p class="card-text">UB</p>
+                                                    </div>
+                                                </div>
+                                                <!-- card3 -->
+                                                <div class="card card3 card-detail mt-3">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">
+                                                            <span class="close-icons">
+                                                                <img src="../assets/images/x.svg" alt="">
+                                                            </span>
+                                                        </h5>
+                                                        <h6 class="card-subtitle mb-2 pt-1">
+                                                            <span class="messanger-name-detail">A 88, 2nd floor</span>
+                                                            <span class="ticket-info"> printer not working</span>
+                                                        </h6>
+                                                        <p class="card-text">The device required a firmware upgrade.
+                                                            This has been fixed now. Please reach back in you face nay
+                                                            issue.
+                                                        </p>
+                                                        <p class="card-text">Regards</p>
+                                                        <p class="card-text">UB</p>
+                                                    </div>
+                                                </div>
+                                                <!-- </div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Yesterday -->
+        <div class="container-fluid mt-4">
+            <div class="accordion mt-3">
+                <div class="accordion-item stright-line">
+                    <h2 class="accordion-header" id="headingYesterday">
+                        <button class="accordion-button day-report " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#yesterdayPanel" aria-expanded="true" aria-controls="yesterdayPanel">
+                            Yesterday
+                            <span class="circle"></span>
+                        </button>
+                    </h2>
+                    <div class="vertical-line"></div>
+                    <div id="yesterdayPanel" class="accordion-collapse collapse" aria-labelledby="headingYesterday"
+                        data-bs-parent="#accordionExample1">
+                        <div class="accordion-body">
+                            <div class="container-fluid">
+                                <div class="accordion" id="accordionPanelsStayOpenExample1">
+                                    <div class="accordion-item ">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true"
+                                                aria-controls="panelsStayOpen-collapseFour">
+                                                <span class="name-info name-ur">
+                                                    <span class="name-letter">UR</span>
+                                                </span>
+                                                <span class="message-info">
+                                                    <div>
+                                                        <span class="messanger-name"> Udaya Reddy </span>
+                                                        <span class="ticket-info">resolved the incident ticket
+                                                            #ASC1314</span>
+                                                    </div>
+                                                    <div class="message-time">
+                                                        30 min ago
+                                                    </div>
+                                                </span>
+                                            </button>
+                                        </h2>
+
+                                        <div class="accordion-body accordion-body-cards">
+                                            <div class="card card1 card-detail">
+                                                <div class="card-body">
+                                                    <h5 class="card-title"></h5>
+                                                    <h6 class="card-subtitle mb-2 pt-1">
+                                                        <span class="messanger-name-detail">A 88, 2nd floor</span>
+                                                        <span class="ticket-info"> printer not working</span>
+                                                    </h6>
+                                                    <p class="card-text">The device required a firmware upgrade. This
+                                                        has been fixed now. Please reach back in you face nay issue.
+                                                    </p>
+                                                    <p class="card-text">Regards</p>
+                                                    <p class="card-text">UB</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse "
+                                            aria-labelledby="panelsStayOpen-headingFour">
+                                            <div class="accordion-body accordion-body-cards card2-body">
+
+                                                <!-- card2 -->
+                                                <div class="card card2 card-detail mt-3">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">
+                                                            <span class="close-icons">
+                                                                <img src="../assets/images/x.svg" alt="">
+                                                            </span>
+                                                        </h5>
+                                                        <h6 class="card-subtitle mb-2 pt-1">
+                                                            <span class="messanger-name-detail">A 88, 2nd floor</span>
+                                                            <span class="ticket-info"> printer not working</span>
+                                                        </h6>
+                                                        <p class="card-text">The device required a firmware upgrade.
+                                                            This has been fixed now. Please reach back in you face nay
+                                                            issue.
+                                                        </p>
+                                                        <p class="card-text">Regards</p>
+                                                        <p class="card-text">UB</p>
+                                                    </div>
+                                                </div>
+                                                <!-- card3 -->
+                                                <div class="card card3 card-detail mt-3">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">
+                                                            <span class="close-icons">
+                                                                <img src="../assets/images/x.svg" alt="">
+                                                            </span>
+                                                        </h5>
+                                                        <h6 class="card-subtitle mb-2 pt-1">
+                                                            <span class="messanger-name-detail">A 88, 2nd floor</span>
+                                                            <span class="ticket-info"> printer not working</span>
+                                                        </h6>
+                                                        <p class="card-text">The device required a firmware upgrade.
+                                                            This has been fixed now. Please reach back in you face nay
+                                                            issue.
+                                                        </p>
+                                                        <p class="card-text">Regards</p>
+                                                        <p class="card-text">UB</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+    <script src="../assets/jquery/dist/jquery.min.js"></script>
+    <script src="../assets/bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

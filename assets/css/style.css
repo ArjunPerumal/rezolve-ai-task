@@ -1,0 +1,300 @@
+.notification-head {
+  /* width: 695px; */
+  height: 49px;
+  padding: 15px 0px 15px 0px;
+  /* justify: space-between; */
+}
+
+.notification-right {
+  text-align: end;
+  color: rgba(107, 114, 128, 1);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+}
+
+.notification-left {
+  color: rgba(0, 0, 0, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+
+.navbar {
+  width: 100%;
+  background-color: rgba(242, 243, 244, 1);
+  height: 46px;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+#navbarNav {
+  justify-content: center;
+}
+
+#navbarNav ul {
+  width: 100%;
+}
+
+#navbarNav ul li {
+  margin: 0 4%;
+}
+
+.badge {
+  background: rgba(209, 213, 219, 1) !important;
+  color: rgba(107, 114, 128, 1) !important;
+  font-weight: 500 !important;
+}
+
+.page .nav-item a:focus {
+  background: rgba(255, 255, 255, 1) !important;
+  border-radius: 6px !important;
+}
+
+.menu {
+  color: rgba(97, 113, 130, 1) !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 23px;
+  position: absolute;
+  right: 15px;
+  top: 11px;
+}
+
+.accordion-item {
+  border: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  /* color: red !important; */
+  background-color: #fff !important;
+  box-shadow: none !important;
+}
+
+.day-report {
+  color: rgba(0, 0, 0, 1) !important;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.name-info {
+  width: 33px;
+  height: 33px;
+  border-radius: 22px;
+  background: rgba(46, 193, 197, 1);
+  color: #fff;
+  text-align: center;
+}
+
+.name-letter {
+  vertical-align: -webkit-baseline-middle;
+}
+
+.name-jh {
+  background-color: rgba(65, 161, 164, 1) !important;
+}
+
+.name-ur {
+  background: rgba(217, 213, 236, 1) !important;
+}
+
+.message-time {
+  color: rgba(107, 114, 128, 1);
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 3px;
+}
+
+.message-info {
+  padding-left: 16px;
+}
+
+.messanger-name {
+  color: #2563eb !important;
+  /* color: linear-gradient(0deg, #2563eb, #2563eb) !important; */
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.messanger-name-detail {
+  color: #2563eb !important;
+  /* color: linear-gradient(0deg, #2563eb, #2563eb) !important; */
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.ticket-info {
+  color: #6b7280 !important;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* card */
+
+.card-detail {
+  border: none !important;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card-text {
+  color: rgba(107, 114, 128, 1);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.in-chat-btn {
+  background-color: rgba(30, 144, 255, 1) !important;
+  color: #fff !important;
+  font-size: 14px !important;
+  padding: 3px 12px !important;
+}
+
+.mark-address-btn {
+  background-color: #fff !important;
+  color: rgba(30, 144, 255, 1) !important;
+  border: 2px solid #1e90ff !important;
+  font-size: 14px !important;
+  padding: 2px 12px !important;
+}
+
+.attachments {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(107, 114, 128, 1) !important;
+}
+
+.attach-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  color: rgba(107, 114, 128, 1) !important;
+  background-color: #fff !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  border: 1px solid #d1d5db !important;
+  border-radius: 20px !important;
+  height: 22px !important;
+  line-height: 1 !important;
+  padding: 0 10px !important;
+}
+
+.attach-number-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  color: rgba(107, 114, 128, 1) !important;
+  background-color: #fff !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  border: 1px solid #d1d5db !important;
+  border-radius: 20px !important;
+  height: 22px !important;
+  line-height: 1 !important;
+  padding: 0 3px !important;
+}
+
+.attach-btn img {
+  margin-right: 5px;
+}
+
+.close-icon {
+  right: 0;
+  position: absolute;
+  top: -8px;
+  cursor: pointer;
+}
+
+.close-icons {
+  right: 16px;
+  position: absolute;
+  top: 8px;
+  cursor: pointer;
+}
+
+.card-title-head {
+  position: relative;
+}
+
+.accordion-body-cards {
+  position: relative;
+  padding-bottom: 0 !important;
+}
+
+.card1 {
+  z-index: 99;
+}
+
+.card2 {
+  position: absolute;
+  top: 7px;
+  z-index: 10;
+}
+
+.card3 {
+  position: absolute;
+  top: 14px;
+  z-index: 5;
+}
+
+.stright-line {
+  position: relative;
+}
+
+.vertical-line {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #d1d5db;
+  left: 26px;
+  margin-top: 38px;
+}
+
+.card2-body {
+  padding-top: 0 !important;
+}
+
+.dummy-card2 {
+  bottom: 13px;
+  z-index: 10;
+  width: 1110px;
+}
+
+@media (max-width: 768px) {
+  #navbarNav {
+    z-index: 999;
+    background-color: rgba(242, 243, 244, 1);
+    margin-top: 38px;
+    padding-bottom: 10px;
+  }
+  .navbar-toggler {
+    top: 3px;
+    position: absolute;
+    z-index: 9999;
+  }
+  .navbar-nav .nav-item .menu {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (min-device-width: 375px) and (max-device-width: 410px) {
+  .name-info {
+    width: 53px !important;
+  }
+}
